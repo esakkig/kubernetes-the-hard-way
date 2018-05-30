@@ -366,7 +366,7 @@ Create the external load balancer network resources:
     --http-health-check kubernetes
 
   gcloud compute target-pools add-instances kubernetes-target-pool \
-   --instances controller-0,controller-1,controller-2
+   --instances controller-0
 
   gcloud compute forwarding-rules create kubernetes-forwarding-rule \
     --address ${KUBERNETES_PUBLIC_ADDRESS} \
