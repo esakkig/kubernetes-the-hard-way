@@ -33,13 +33,13 @@ gcloud init
 Otherwise set a default compute region:
 
 ```
-gcloud config set compute/region us-west1
+gcloud config set compute/region us-central1
 ```
 
 Set a default compute zone:
 
 ```
-gcloud config set compute/zone us-west1-c
+gcloud config set compute/zone us-central1-a
 ```
 
 > Use the `gcloud compute zones list` command to view additional regions and zones.
