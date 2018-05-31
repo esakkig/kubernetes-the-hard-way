@@ -123,7 +123,7 @@ Each worker instance requires a pod subnet allocation from the Kubernetes cluste
 Create one compute instances which will host the Kubernetes worker nodes:
 
 ```
-for i in 0; do
+for i in 0 1; do
   gcloud compute instances create worker-${i} \
     --async \
     --boot-disk-size 200GB \
