@@ -344,6 +344,8 @@ In this section you will provision an external load balancer to front the Kubern
 
 ### Provision a Network Load Balancer
 
+SWITCH BACK TO JUMP/BASTION SERVER!
+
 Create the external load balancer network resources:
 
 ```
